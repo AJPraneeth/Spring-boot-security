@@ -7,7 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DesktopApplicationBackendApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Hello World");
 		SpringApplication.run(DesktopApplicationBackendApplication.class, args);
 	}
+
+
 
 }
